@@ -1,0 +1,12 @@
+{
+  "homepage": "https://iso2t.com/null",
+  "promos": {
+    "1.21.1-latest": "1.0.3",
+    "1.21.1-recommended": "1.0.3"
+  },
+  "1.21.1": {
+    "1.0.3": "Fixed quarry energy sync and added filter support.",
+    "1.0.2": "Improved mining stability.",
+    "1.0.1": "Initial public release."
+  }
+}
