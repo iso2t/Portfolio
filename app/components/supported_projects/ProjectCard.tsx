@@ -2,6 +2,7 @@ import React from "react";
 import ProjectTagPill from "@/app/components/supported_projects/ProjectTagPill";
 import type { ProjectDefinition, ProjectLink, ProjectTags } from "@/app/components/supported_projects/ProjectDefinitions";
 import Image from "next/image";
+import Link from "next/link";
 
 function ProjectIcon({ project }: { project: ProjectDefinition }) {
     const image = project.image?.[0];
@@ -26,21 +27,13 @@ function ProjectIcon({ project }: { project: ProjectDefinition }) {
 }
 
 function PrimaryLink({ project }: { project: ProjectDefinition }) {
-    const website = project.links.find((l) => l.name.toLowerCase() === "website");
-    const github = project.links.find((l) => l.name.toLowerCase() === "github");
-    const primary = website ?? github ?? project.links[0];
-
-    if (!primary) return null;
-
     return (
-        <a
-            href={primary.href}
-            target="_blank"
-            rel="noopener noreferrer"
+        <Link
+            href={`/${project.slug}`}
             className="inline-flex items-center gap-2 rounded-md bg-foreground text-background px-3 py-1.5 text-sm font-semibold hover:opacity-90"
         >
             <span>View</span>
-        </a>
+        </Link>
     );
 }
 

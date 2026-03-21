@@ -150,6 +150,7 @@ export async function loadProjectDefinitionsFromContent(): Promise<ProjectDefini
 
         const definition: ProjectDefinition = {
             id: parsed.id ?? folder,
+            slug: folder,
             name: parsed.name ?? folder,
             description: parsed.description ?? parsed.summary ?? "",
             versions: normalizeVersions(parsed.versions),

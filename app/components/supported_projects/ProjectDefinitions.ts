@@ -41,6 +41,7 @@ export interface ProjectDefinition {
     image?: ProjectImage[];
     downloadLinks?: ProjectDownloadLink[];
     id: string;
+    slug: string;
     description: string;
     versions: ProjectVersion[];
     dependencies: ProjectDependency[];
