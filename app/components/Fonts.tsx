@@ -1,7 +1,6 @@
 import { Exo, SN_Pro } from 'next/font/google'
 
-export const HeaderFont = SN_Pro({
-})
+export const HeaderFont = SN_Pro()
 
 export const SubHeaderFont = Exo({
     style: ['italic']
