@@ -42,5 +42,6 @@ next-env.d.ts
 
 *.md
 !content/project_pages/**/*.md
+!content/pages/**/*.md
 .idea/
 .vscode/
