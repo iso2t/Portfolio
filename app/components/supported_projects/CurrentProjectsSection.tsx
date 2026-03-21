@@ -1,8 +1,10 @@
 import React from "react";
 import ProjectList from "@/app/components/supported_projects/ProjectList";
-import { Definitions } from "@/app/components/supported_projects/ProjectDefinitions";
+import { loadProjectDefinitionsFromContent } from "@/app/components/supported_projects/loadProjectDefinitions";
 
-export default function CurrentProjectsSection() {
+export default async function CurrentProjectsSection() {
+    const projects = await loadProjectDefinitionsFromContent();
+
     return (
         <div className="w-full max-w-4xl mx-auto px-4 py-8">
             <div className="mb-4">
@@ -12,7 +14,7 @@ export default function CurrentProjectsSection() {
                 </p>
             </div>
 
-            <ProjectList projects={Definitions} />
+            <ProjectList projects={projects} />
         </div>
     );
 }

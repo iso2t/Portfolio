@@ -1,0 +1,40 @@
+{
+  "id": "null",
+  "name": "Null",
+  "summary": "Null is a mod designed for late-game resource gathering and processing in Minecraft, built upon the NeoForge modding framework.",
+  "tags": ["MOD", "TECHNOLOGY"],
+  "versions": {
+    "latest": "1.0.0-1.21.1",
+    "minecraft": "1.21.1",
+    "loader": "NeoForge"
+  },
+  "dependencies": [
+    { "name": "NeoForge", "version": "1.21.1" },
+    { "name": "Minecraft", "version": "1.21.1" },
+    { "name": "GuideME", "version": "21.1.10" }
+  ],
+  "downloadLinks": [
+    {
+      "name": "GitHub Releases",
+      "href": "https://github.com/iso2t/Null/releases"
+    },
+    {
+      "name": "CurseForge",
+      "href": "https://www.curseforge.com/minecraft/mc-mods/nullmod"
+    },
+    {
+      "name": "Modrinth",
+      "href": "https://modrinth.com/mod/nullmod"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/iso2t/Null"
+    },
+    {
+      "name": "Issues",
+      "href": "https://github.com/iso2t/Null/issues"
+    }
+  ]
+}

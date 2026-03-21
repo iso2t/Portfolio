@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaDiscord, FaGithub} from "react-icons/fa";
+import {FaDiscord, FaGithub, FaYoutube} from "react-icons/fa";
 import {FaXTwitter} from "react-icons/fa6";
 
 export type SocialMediaIconProps = {
@@ -46,5 +46,10 @@ export const SocialMediaLinks = [
         name: "Twitter",
         href: "https://twitter.com/iso2t_",
         icon: FaXTwitter,
+    },
+    {
+        name: "YouTube",
+        href: "https://www.youtube.com/@iso2t",
+        icon: FaYoutube,
     }
 ]
