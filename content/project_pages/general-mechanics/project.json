@@ -1,0 +1,39 @@
+{
+  "id": "general-mechanics",
+  "name": "General Mechanics",
+  "summary": "Realistic technology for the modern era.",
+  "tags": ["MOD", "TECHNOLOGY"],
+  "versions": {
+    "latest": "1.0.0-1.21.1",
+    "minecraft": "1.21.1",
+    "loader": "NeoForge"
+  },
+  "dependencies": [
+    { "name": "NeoForge", "version": "1.21.1" },
+    { "name": "Minecraft", "version": "1.21.1" }
+  ],
+  "downloadLinks": [
+    {
+      "name": "GitHub Releases",
+      "href": "https://github.com/iso2t/General-Mechanics/releases"
+    },
+    {
+      "name": "CurseForge",
+      "href": "https://www.curseforge.com/minecraft/mc-mods/general-mechanics"
+    },
+    {
+      "name": "Modrinth",
+      "href": "https://modrinth.com/mod/general-mechanics"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/iso2t/General-Mechanics"
+    },
+    {
+      "name": "Issues",
+      "href": "https://github.com/iso2t/General-Mechanics/issues"
+    }
+  ]
+}

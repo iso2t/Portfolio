@@ -1,0 +1,36 @@
+![Logo](https://raw.githubusercontent.com/iso2t/General-Mechanics/refs/heads/master/src/main/resources/logo.png)
+
+# General Mechanics
+### General Mechanics: Realistic technology for the modern era.
+
+## Developers
+To add General Mechanics to your project as a dependency, add the following to your `build.gradle`:
+```groovy
+repositories {
+    maven {
+        name = 'ISO2T Maven'
+        url = 'https://maven.iso2t.com'
+        content {
+            includeGroup 'general.mechanics'
+        }
+    }
+}
+```
+Then, you can add it as a dependency, with `${mc_version}` being your Minecraft version target and `${version}` being the version of General Mechanics you want to use.
+```groovy
+dependencies {
+	// NeoForge
+	implementation "general.mechnics:gm-${mc_version}:${version}"
+
+	// Architectury
+	modImplementation "general.mechnics:gm-${mc_version}:${version}"
+}
+```
+
+### IDE Requirements (it is recommended to use IntelliJ IDEA Community Edition or higher)
+- Oracle JDK 21
+- [Project Lombok plugin](https://plugins.jetbrains.com/plugin/6317-lombok)
+- [Minecraft Development plugin](https://plugins.jetbrains.com/plugin/8327-minecraft-development) is recommended.
+
+### Texturing
+Many of the textures were made with PhotoShop. 

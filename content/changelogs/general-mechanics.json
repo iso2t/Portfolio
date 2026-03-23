@@ -1,0 +1,10 @@
+{
+  "homepage": "https://iso2t.com/general-mechanics",
+  "promos": {
+    "1.21.1-latest": "0.0.1-PRE-ALPHA",
+    "1.21.1-recommended": "0.0.1-PRE-ALPHA"
+  },
+  "1.21.1": {
+    "0.0.1-PRE-ALPHA": "Development test build."
+  }
+}

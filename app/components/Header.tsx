@@ -10,8 +10,7 @@ import {MdDarkMode, MdLightMode, MdSync} from "react-icons/md";
 function HeaderTitle({subTitle}: { subTitle?: string }) {
     return (
         <Link className={`${HeaderFont.className} text-foreground text-3xl font-bold pl-3 shadow-2xl`} href="/">
-            ISO2T<span
-                className={`${HeaderFont.className} text-foreground font-bold text-3xl`}>{subTitle ? ` - ${subTitle}` : ""}</span>
+            ISO2T<span className={`${HeaderFont.className} text-foreground font-bold text-3xl`}>{subTitle ? ` - ${subTitle}` : ""}</span>
         </Link>
     );
 }
