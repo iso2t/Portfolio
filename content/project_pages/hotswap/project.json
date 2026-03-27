@@ -1,0 +1,41 @@
+{
+  "id": "hotswap",
+  "name": "HotSwap",
+  "summary": "Auto swap to the right tool, with blazing speed.",
+  "tags": ["MOD"],
+  "versions": {
+    "latest": "1.4.0.rc1",
+    "minecraft": "26.1, 1.21.5, 1.21.4, 1.21.1, 1.21, 1.20.6, 1.16.2",
+    "loader": ["NeoForge", ", Fabric"]
+  },
+  "dependencies": [
+    { "name": "NeoForge", "version": "[26.1.0.1-beta,)" },
+    { "name": "Fabric", "version": "[0.144.0+26.1,)" },
+    { "name": "Minecraft", "version": "[26.1]" },
+    { "name": "ConfigManager", "version": "[1.0.0,)" }
+  ],
+  "downloadLinks": [
+    {
+      "name": "GitHub Releases",
+      "href": "https://github.com/iso2t/HotSwap/releases"
+    },
+    {
+      "name": "CurseForge",
+      "href": "https://www.curseforge.com/minecraft/mc-mods/hot-swap"
+    },
+    {
+      "name": "Modrinth",
+      "href": "https://modrinth.com/mod/hotswap"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/iso2t/HotSwap"
+    },
+    {
+      "name": "Issues",
+      "href": "https://github.com/iso2t/HotSwap/issues"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ export const HeaderNavigationLinks = [
     },
     {
         name: "Maven",
-        href: "/maven",
+        href: "https://maven.iso2t.com/",
     },
     {
         name: "Docs",

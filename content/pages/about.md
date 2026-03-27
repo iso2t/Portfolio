@@ -2,10 +2,10 @@
 
 Hi, I’m **ISO2T**.
 
-> ISO2T is a joke from work, it stands for I Steal Oxygen Tanks, which I do not steal, just something I thought was interesting.
+> ISO2T is a joke from work, it stands for I Steal Oxygen Tanks, which I do not steal, just something I thought was funny.
 
 I am a software engineer, mostly working with Java, but I work a lot with C and C++.
-I am self-taught, starting in 2008 (at a ripe 9 years old!) with Basic, learning to program a Parallax BoeBot using the
+I am self-taught, starting in 2008 (at about 9 years old) with Basic, learning to program a Parallax BoeBot using the
 Basic Stamp chip. I since moved on to Processing my Freshman year of High School, eventually falling into Java and Pascal.
 
 In High School, I started off creating Twitter (X) bots, specifically a bot that would tweet out the current schedule the school
