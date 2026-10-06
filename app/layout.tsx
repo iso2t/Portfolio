@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Head } from "nextra/components";
-import { getPageMap } from "nextra/page-map";
-import { Footer, Layout, Navbar } from "nextra-theme-docs";
+import "nextra-theme-blog/style.css";
 import "nextra-theme-docs/style.css";
 import "./globals.css";
 
@@ -23,15 +22,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <Head />
       {/* Extensions can add body attributes before React hydrates. */}
       <body suppressHydrationWarning>
-        <Layout
-          navbar={<Navbar logo={<b>ISO2T</b>} projectLink="https://github.com/iso2t" />}
-          pageMap={await getPageMap()}
-          editLink={null}
-          feedback={{ content: null }}
-          footer={<Footer>© {new Date().getFullYear()} ISO2T</Footer>}
-        >
-          {children}
-        </Layout>
+        {children}
       </body>
     </html>
   );

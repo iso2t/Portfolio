@@ -1,7 +1,7 @@
 import type { MetaRecord } from "nextra";
 
 const meta: MetaRecord = {
-  index: "Documentation",
+  index: "Home",
   "heavy-inventories": { title: "Heavy Inventories", type: "page" },
   sverve: { title: "Sverve", type: "page" },
   "easy-config": { title: "Easy Config", type: "page" },

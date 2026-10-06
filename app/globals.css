@@ -12,3 +12,51 @@
 ) {
   display: none;
 }
+
+.footer-links {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-links [aria-label="Social links"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  text-underline-offset: 0.2em;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links .footer-copyright {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.blog-shell {
+  min-height: calc(100vh - var(--nextra-navbar-height));
+  padding: clamp(2rem, 5vw, 4rem) 0 5rem;
+}
+
+.blog-shell > article {
+  width: 100%;
+  max-width: 52rem;
+  margin-inline: auto;
+  padding-block: 0;
+  padding-inline: clamp(1.5rem, 4vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 1.0625rem);
+  line-height: 1.8;
+}
+
+.blog-shell main > h1:first-child {
+  margin-top: 0;
+  font-size: clamp(1.875rem, 3vw, 2.5rem);
+}
